@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev",
+    "compile-sass": "sass styles/scss/nextjs-material-kit-pro.scss styles/css/nextjs-material-kit-pro.css",
+    "minify-sass": "sass styles/scss/nextjs-material-kit-pro.scss styles/css/nextjs-material-kit-pro.min.css --style compressed"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -34,5 +37,13 @@
   "devDependencies": {
     "eslint": "8.23.0",
     "eslint-config-next": "12.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": []
   }
 }

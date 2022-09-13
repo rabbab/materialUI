@@ -30,143 +30,143 @@ import presentationStyle from "/styles/jss/nextjs-material-kit-pro/pages/present
 const useStyles = makeStyles(presentationStyle);
 
 export default function PresentationPage() {
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-        document.body.scrollTop = 0;
-    });
-    const classes = useStyles();
-    return (
-        <div>
-            <Header
-                brand="NextJS Material Kit PRO"
-                links={<HeaderLinks dropdownHoverColor="info" />}
-                fixed
-                color="transparent"
-                changeColorOnScroll={{
-                    height: 400,
-                    color: "info"
-                }}
-            />
-            <Parallax image="/img/nextjs_header.jpg" className={classes.parallax}>
-                <div className={classes.container}>
-                    <GridContainer>
-                        <GridItem>
-                            <div className={classes.brand}>
-                                <h1>
-                                    NextJS Material Kit
-                                    <span className={classes.proBadge}>PRO</span>
-                                </h1>
-                                <h3 className={classes.title}>
-                                    A Badass Material-UI Kit based on Material Design.
-                                </h3>
-                            </div>
-                        </GridItem>
-                    </GridContainer>
-                </div>
-            </Parallax>
-            <div className={classNames(classes.main, classes.mainRaised)}>
-                <SectionDescription />
-                <SectionComponents />
-                <SectionCards />
-                <SectionContent />
-                <SectionSections />
-                <SectionExamples />
-                <SectionFreeDemo />
-                <SectionOverview />
-            </div>
-            <SectionPricing />
-            <Footer
-                theme="white"
-                content={
-                    <div>
-                        <div className={classes.left}>
-                            <a
-                                href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-presentation"
-                                target="_blank"
-                                className={classes.footerBrand}
-                            >
-                                NextJS Material Kit PRO
-                            </a>
-                        </div>
-                        <div className={classes.pullCenter}>
-                            <List className={classes.list}>
-                                <ListItem className={classes.inlineBlock}>
-                                    <a
-                                        href="https://www.creative-tim.com/?ref=njsmkp-presentation"
-                                        target="_blank"
-                                        className={classes.block}
-                                    >
-                                        Creative Tim
-                                    </a>
-                                </ListItem>
-                                <ListItem className={classes.inlineBlock}>
-                                    <a
-                                        href="https://www.creative-tim.com/presentation?ref=njsmkp-presentation"
-                                        target="_blank"
-                                        className={classes.block}
-                                    >
-                                        About us
-                                    </a>
-                                </ListItem>
-                                <ListItem className={classes.inlineBlock}>
-                                    <a
-                                        href="http://blog.creative-tim.com/?ref=njsmkp-presentation"
-                                        className={classes.block}
-                                    >
-                                        Blog
-                                    </a>
-                                </ListItem>
-                                <ListItem className={classes.inlineBlock}>
-                                    <a
-                                        href="https://www.creative-tim.com/license?ref=njsmkp-presentation"
-                                        target="_blank"
-                                        className={classes.block}
-                                    >
-                                        Licenses
-                                    </a>
-                                </ListItem>
-                            </List>
-                        </div>
-                        <div className={classes.rightLinks}>
-                            <ul>
-                                <li>
-                                    <Button
-                                        href="https://twitter.com/CreativeTim?ref=creativetim"
-                                        target="_blank"
-                                        color="twitter"
-                                        justIcon
-                                        simple
-                                    >
-                                        <i className="fab fa-twitter" />
-                                    </Button>
-                                </li>
-                                <li>
-                                    <Button
-                                        href="https://dribbble.com/creativetim?ref=creativetim"
-                                        target="_blank"
-                                        color="dribbble"
-                                        justIcon
-                                        simple
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                </li>
-                                <li>
-                                    <Button
-                                        href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
-                                        target="_blank"
-                                        color="instagram"
-                                        justIcon
-                                        simple
-                                    >
-                                        <i className="fab fa-instagram" />
-                                    </Button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                }
-            />
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+  });
+  const classes = useStyles();
+  return (
+    <div>
+      <Header
+        brand="NextJS Material Kit PRO"
+        links={<HeaderLinks dropdownHoverColor="info" />}
+        fixed
+        color="transparent"
+        changeColorOnScroll={{
+          height: 400,
+          color: "info"
+        }}
+      />
+      <Parallax image="/img/nextjs_header.jpg" className={classes.parallax}>
+        <div className={classes.container}>
+          <GridContainer>
+            <GridItem>
+              <div className={classes.brand}>
+                <h1>
+                  NextJS Material Kit
+                  <span className={classes.proBadge}>PRO</span>
+                </h1>
+                <h3 className={classes.title}>
+                  A Badass Material-UI Kit based on Material Design.
+                </h3>
+              </div>
+            </GridItem>
+          </GridContainer>
         </div>
-    );
+      </Parallax>
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <SectionDescription />
+        <SectionComponents />
+        <SectionCards />
+        <SectionContent />
+        <SectionSections />
+        <SectionExamples />
+        <SectionFreeDemo />
+        <SectionOverview />
+      </div>
+      <SectionPricing />
+      <Footer
+        theme="white"
+        content={
+          <div>
+            <div className={classes.left}>
+              <a
+                href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmkp-presentation"
+                target="_blank"
+                className={classes.footerBrand}
+              >
+                NextJS Material Kit PRO
+              </a>
+            </div>
+            <div className={classes.pullCenter}>
+              <List className={classes.list}>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href="https://www.creative-tim.com/?ref=njsmkp-presentation"
+                    target="_blank"
+                    className={classes.block}
+                  >
+                    Creative Tim
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href="https://www.creative-tim.com/presentation?ref=njsmkp-presentation"
+                    target="_blank"
+                    className={classes.block}
+                  >
+                    About us
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href="http://blog.creative-tim.com/?ref=njsmkp-presentation"
+                    className={classes.block}
+                  >
+                    Blog
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href="https://www.creative-tim.com/license?ref=njsmkp-presentation"
+                    target="_blank"
+                    className={classes.block}
+                  >
+                    Licenses
+                  </a>
+                </ListItem>
+              </List>
+            </div>
+            <div className={classes.rightLinks}>
+              <ul>
+                <li>
+                  <Button
+                    href="https://twitter.com/CreativeTim?ref=creativetim"
+                    target="_blank"
+                    color="twitter"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-twitter" />
+                  </Button>
+                </li>
+                <li>
+                  <Button
+                    href="https://dribbble.com/creativetim?ref=creativetim"
+                    target="_blank"
+                    color="dribbble"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-dribbble" />
+                  </Button>
+                </li>
+                <li>
+                  <Button
+                    href="https://instagram.com/CreativeTimOfficial?ref=creativetim"
+                    target="_blank"
+                    color="instagram"
+                    justIcon
+                    simple
+                  >
+                    <i className="fab fa-instagram" />
+                  </Button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        }
+      />
+    </div>
+  );
 }

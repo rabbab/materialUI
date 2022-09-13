@@ -29,7 +29,7 @@ const RegularMap = () => {
     let map = mapRef.current;
     let lat = "44.43353";
     let lng = "26.093928";
-    const myLatlng = new google.maps.LatLng(lat, lng);
+    const myLatlng = ""
     const mapOptions = {
       zoom: 14,
       center: myLatlng,
@@ -89,7 +89,7 @@ const RegularMap = () => {
       ]
     };
 
-    map = new google.maps.Map(map, mapOptions);
+    map = null;
 
     const marker = new google.maps.Marker({
       position: myLatlng,

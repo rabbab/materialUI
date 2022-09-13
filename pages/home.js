@@ -30,6 +30,7 @@ import presentationStyle from "/styles/jss/nextjs-material-kit-pro/pages/present
 import {createClient} from "../utils/prismic";
 import {PrismicNextImage} from "@prismicio/next";
 import * as prismicH from "@prismicio/helpers";
+import SectionFeatures from "/pages-sections/pricing-page/SectionFeatures";
 
 const useStyles = makeStyles(presentationStyle);
 
@@ -49,14 +50,14 @@ const PresentationPage = ({ articles, navigation, settings }) => {
                 height: 400, color: "info"
             }}
         />
-        <Parallax image="/img/nextjs_header.jpg" className={classes.parallax}>
+        <Parallax image="/img/dubai.jpeg" className={classes.parallax}>
             <div className={classes.container}>
                 <GridContainer>
                     <GridItem>
                         <div className={classes.brand}>
                             <h1>
                                 NextJS Material Kit
-                                <span className={classes.proBadge}>PRO</span>
+                                {/*<span className={classes.proBadge}>PRO</span>*/}
                             </h1>
                             <h3 className={classes.title}>
                                 A Badass Material-UI Kit based on Material Design.
@@ -67,31 +68,32 @@ const PresentationPage = ({ articles, navigation, settings }) => {
             </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
-            <SectionDescription/>
-            <SectionComponents/>
-            <SectionCards/>
-            <SectionContent/>
-            <SectionSections/>
-            <SectionExamples/>
-            <SectionFreeDemo/>
-            <SectionOverview/>
+            {/*<SectionDescription/>*/}
+            {/*<SectionComponents/>*/}
+            {/*<SectionCards/>*/}
+            {/*<SectionContent/>*/}
+            {/*<SectionSections/>*/}
+            <SectionFeatures/>
+            {/*<SectionExamples/>*/}
+            {/*<SectionFreeDemo/>*/}
+            {/*<SectionOverview/>*/}
         </div>
-        <SectionPricing/>
+        {/*<SectionPricing/>*/}
         {/*<SectionPreFooter />*/}
         {/*<SectionFooter />*/}
-        <ul className="grid grid-cols-1 gap-16">
-            {articles.map((article) => (
-                <div>
-                {/*<div>{article.id}</div>*/}
-                {/*<div>{JSON.stringify(article)}</div>*/}
-                    <PrismicText field={article.data.title} />
-                    {/*shdgduysg*/}
-                    <div>
-                        <PrismicNextImage field={prismicH.isFilled.image(article.data.featuredImage) && article.data.featuredImage} layout={"responsive"}/>
-                    </div>
-                </div>
-            ))}
-        </ul>
+        {/*<ul className="grid grid-cols-1 gap-16">*/}
+        {/*    {articles.map((article) => (*/}
+        {/*        <div>*/}
+        {/*        /!*<div>{article.id}</div>*!/*/}
+        {/*        /!*<div>{JSON.stringify(article)}</div>*!/*/}
+        {/*            <PrismicText field={article.data.title} />*/}
+        {/*            /!*shdgduysg*!/*/}
+        {/*            <div>*/}
+        {/*                <PrismicNextImage field={prismicH.isFilled.image(article.data.featuredImage) && article.data.featuredImage} layout={"responsive"}/>*/}
+        {/*            </div>*/}
+        {/*        </div>*/}
+        {/*    ))}*/}
+        {/*</ul>*/}
         <Footer
             theme="dark"
             content={<div>
