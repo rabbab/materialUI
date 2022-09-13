@@ -9,9 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "animate.css": "^4.1.1",
+    "classnames": "^2.3.2",
+    "moment": "^2.29.4",
     "next": "12.3.0",
+    "nouislider": "^15.6.1",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-animate-on-scroll": "^2.1.5",
+    "react-datetime": "^3.1.1",
+    "react-dom": "^18.2.0",
+    "react-image-gallery": "^1.2.9",
+    "react-slick": "^0.29.0",
+    "react-tagsinput": "^3.19.0",
+    "sass": "^1.54.9",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
