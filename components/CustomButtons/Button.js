@@ -12,7 +12,7 @@ import styles from "/styles/jss/nextjs-material-kit-pro/components/buttonStyle.j
 
 const useStyles = makeStyles(styles);
 
-const RegularButton = React.forwardRef((props, ref) => {
+const RegularButton = () => {
   const {
     color,
     round,
@@ -48,7 +48,7 @@ const RegularButton = React.forwardRef((props, ref) => {
       {children}
     </Button>
   );
-});
+};
 
 RegularButton.propTypes = {
   color: PropTypes.oneOf([
