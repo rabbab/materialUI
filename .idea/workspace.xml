@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ca6640-4513-4489-bae0-1b7eecbdd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/about-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog-posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/contact-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ecommerce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/error-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/landing-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pricing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/shopping-cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/signup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/dubai.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages-sections/sections-page/SectionContacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages-sections/sections-page/SectionContacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/presentation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/HeaderLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/HeaderLinks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +90,7 @@
       <workItem from="1663048245300" duration="7748000" />
       <workItem from="1663064369200" duration="121000" />
       <workItem from="1663064844424" duration="1099000" />
-      <workItem from="1663065953336" duration="4903000" />
+      <workItem from="1663065953336" duration="4998000" />
     </task>
     <servers />
   </component>
