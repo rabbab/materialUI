@@ -16,8 +16,8 @@ Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
   document.body.classList.add("body-page-transition");
   ReactDOM.render(
-      <PageChange path={url} />,
-      document.getElementById("page-transition")
+    <PageChange path={url} />,
+    document.getElementById("page-transition")
   );
 });
 Router.events.on("routeChangeComplete", () => {
@@ -62,17 +62,17 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-        <React.Fragment>
-          <Head>
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1, shrink-to-fit=no"
-            />
-            {/*<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE" />*/}
-            <title>NextJS Material Kit by Creative Tim</title>
-          </Head>
-          <Component {...pageProps} />
-        </React.Fragment>
+      <React.Fragment>
+        <Head>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
+          {/*<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE" />*/}
+          <title>NextJS Material Kit by Creative Tim</title>
+        </Head>
+        <Component {...pageProps} />
+      </React.Fragment>
     );
   }
 }
